@@ -10,37 +10,41 @@
 
 <body>
 
-    <div class="myName">
-        <h1>Fuad Guluzade</h1>
-    </div>
+    <header>
+        <div class="myName">
+            <h1>Fuad Guluzade</h1>
+        </div>
 
-    <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-
+        <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        </nav>
+    </header>
     <h1>Contact</h1>
     <hr>
+    <div class="content">
+        <fieldset>
+            <form action="#" method="POST">
+                <label>
+                    Name <input type="text" name="name" placeholder="John Smith">
+                </label>
 
-    <fieldset>
-        <form action="#" method="POST">
-            <label>
-                Name <input type="text" name="name" placeholder="John Smith">
-            </label>
+                <label>
+                    Email <input type="email" name="email" placeholder="example@gmail.com" required>
+                </label>
 
-            <label>
-                Email <input type="email" name="email" placeholder="example@gmail.com" required>
-            </label>
+                <label>
+                    Message <textarea name="emailBody" required>Type your message</textarea>
+                </label>
 
-            <label>
-                Message <textarea name="emailBody" required>Type your message</textarea>
-            </label>
+                <input type="submit" name="submit" value="Send">
 
-            <input type="submit" name="submit" value="Send">
+            </form>
+        </fieldset>
+    </div>
 
-        </form>
-    </fieldset>
 
     <footer>
         <small>&copy; Fuad Guluzade</small>
