@@ -1,0 +1,23 @@
+table {
+    margin: auto;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    height: 300px;
+    width: 300px;
+}
+
+.projectLogo {
+    position: relative;
+}    
+
+.projectNames {
+    position: absolute;
+    background-color: teal;
+    color: white;
+    top: 170px;
+    left: 38px;
+    width: 224px;
+}

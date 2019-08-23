@@ -72,7 +72,6 @@ ul {
 }
 
 .content {
-    clear: both;
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
@@ -99,56 +98,5 @@ footer {
     line-height: 40px;
 }
 
-table {
-    margin: auto;
-}
 
-td {
-    text-align: center;
-    vertical-align: middle;
-    height: 300px;
-    width: 300px;
-}
-
-.projectLogo {
-    position: relative;
-}    
-
-.projectNames {
-    position: absolute;
-    background-color: teal;
-    color: white;
-    top: 170px;
-    left: 38px;
-    width: 224px;
-}
-
-form {
-    width: 180px;
-}
-
-label {
-    color: #666666;
-}
-
-input[type=text], input[type=email] {
-    width: 950px;
-    padding: 5px 2px;
-    margin: 8px 0;
-}
-
-textarea {
-    width: 950px;
-    height: 150px;
-    padding: 5px 2px;
-    margin: 8px 0;
-}
-
-button {
-    background-color: teal;
-    color: white;
-    padding: 8px 8px;
-    border: none;
-    width: 80px;
-}
 
